@@ -1,0 +1,76 @@
+.form-container{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+}
+.form-title{
+    font-size: 35px;
+    color: crimson;
+    font-weight: 400;
+}
+.input-group label{
+    display: block;
+    margin-left: 5px;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+.input-group input{
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+.input-btn{
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.input-btn:hover{
+    background-color:green;
+}
+.sign-up{
+    text-decoration: none;
+    color: orange;
+    font-size: 19px;
+}
+.sign-up:hover{
+    color: blue;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.task .task-text{
+    margin-left: 10px;
+    margin-right: 10px;
+display: inline-block;
+}
+
+
+
+.input-google{
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    background-color: peru;
+    color: white;
+    border: none;
+}
+.input-google:hover{
+    background-color:green;
+}
